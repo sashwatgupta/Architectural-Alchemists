@@ -1,4 +1,25 @@
+# Business Goals
+- Increased revenue
+- Enhanced customer satisfaction and retention
+
 # Functional Requirements
+Build a Customer Relationship Platform
+- customer driven
+- data centric, information managed across the 
+    - ticket booking platforms both online and agents
+    - call centre
+    - check in desks
+    - customer affairs and services
+    - in flight retail
+    - lounges
+    - chauffer driven services
+    - baggage services
+
+# Integrating Systems
+- Loyalty platform
+- Booking systems online 
+- Booking systems agent platforms
+- 
 
 # Users
 
