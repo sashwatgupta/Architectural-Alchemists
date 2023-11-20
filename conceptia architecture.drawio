@@ -1,0 +1,94 @@
+<mxfile host="Electron" modified="2023-11-20T05:18:37.381Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/22.0.2 Chrome/114.0.5735.289 Electron/25.8.4 Safari/537.36" etag="A08KxHajVE6iGS4hL17n" version="22.0.2" type="device">
+  <diagram name="Page-1" id="E39NnWvNPbeG-AesfspN">
+    <mxGraphModel dx="1983" dy="998" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1800" pageHeight="1200" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="1CYO5dCUhbs0b7TgTWWg-1" value="Customer 360" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="780" y="555" width="820" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1CYO5dCUhbs0b7TgTWWg-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="1CYO5dCUhbs0b7TgTWWg-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="400" y="130" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="610" y="480" />
+              <mxPoint x="610" y="315" />
+              <mxPoint x="490" y="315" />
+              <mxPoint x="490" y="180" />
+              <mxPoint x="400" y="180" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1CYO5dCUhbs0b7TgTWWg-2" value="Integration" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="780" y="435" width="410" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="1CYO5dCUhbs0b7TgTWWg-3" value="Anaytics" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1220" y="435" width="230" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="1CYO5dCUhbs0b7TgTWWg-4" value="Machine learning" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1490" y="435" width="110" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="1CYO5dCUhbs0b7TgTWWg-9" value="Events" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="600" y="555" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1CYO5dCUhbs0b7TgTWWg-10" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="1CYO5dCUhbs0b7TgTWWg-9" target="1CYO5dCUhbs0b7TgTWWg-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="740" y="585" as="sourcePoint" />
+            <mxPoint x="820" y="555" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1CYO5dCUhbs0b7TgTWWg-11" value="Loyalty platform" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="130" y="65" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1CYO5dCUhbs0b7TgTWWg-12" value="Online Booking systems" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="130" y="145" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1CYO5dCUhbs0b7TgTWWg-13" value="&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Agent&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;platforms&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="130" y="225" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1CYO5dCUhbs0b7TgTWWg-14" value="Contact Centre System" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="130" y="305" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1CYO5dCUhbs0b7TgTWWg-15" value="Passenger Reservation System" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="130" y="385" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1CYO5dCUhbs0b7TgTWWg-16" value="Inflight retail and Meal order system" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="130" y="465" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1CYO5dCUhbs0b7TgTWWg-17" value="Offer Management System" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="130" y="555" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1CYO5dCUhbs0b7TgTWWg-19" value="Marketing management system" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="130" y="635" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1CYO5dCUhbs0b7TgTWWg-20" value="Check in systems (self, agent)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="130" y="790" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1CYO5dCUhbs0b7TgTWWg-21" value="Knowledge base for support agents to" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="330" y="65" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1CYO5dCUhbs0b7TgTWWg-22" value="&lt;div&gt;&amp;nbsp;Baggage management and handling&lt;/div&gt;&lt;div&gt;systems&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="130" y="715" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1CYO5dCUhbs0b7TgTWWg-25" value="Compensation Management" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1490" y="340" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1CYO5dCUhbs0b7TgTWWg-26" value="Case Management" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1200" y="340" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1CYO5dCUhbs0b7TgTWWg-27" value="Customer Analytics" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1340" y="340" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1CYO5dCUhbs0b7TgTWWg-28" value="Customer Profile Management" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="770" y="340" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1CYO5dCUhbs0b7TgTWWg-29" value="Customer Interaction Management" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="910" y="340" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1CYO5dCUhbs0b7TgTWWg-30" value="Customer Order Management" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1050" y="340" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
