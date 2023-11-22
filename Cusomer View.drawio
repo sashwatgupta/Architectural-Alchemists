@@ -1,0 +1,88 @@
+<mxfile host="Electron" modified="2023-11-22T09:24:50.861Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/22.1.2 Chrome/114.0.5735.289 Electron/25.9.4 Safari/537.36" etag="yvIancQMj14HKirvUPy1" version="22.1.2" type="device">
+  <diagram name="Page-1" id="D2zHB0ITt3KCEdHH1dIt">
+    <mxGraphModel dx="1135" dy="649" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1800" pageHeight="1200" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="ctLkJCkqgNsg4VzJp4w8-1" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="600" width="920" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="ctLkJCkqgNsg4VzJp4w8-10" value="Collect" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="415.5" y="580" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ctLkJCkqgNsg4VzJp4w8-18" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="440" width="920" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="ctLkJCkqgNsg4VzJp4w8-19" value="Security and access control" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="90" y="470" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ctLkJCkqgNsg4VzJp4w8-20" value="Identity Resolution" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="400" y="470" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ctLkJCkqgNsg4VzJp4w8-21" value="Data Catalog" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="470" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ctLkJCkqgNsg4VzJp4w8-22" value="Unified Customer Profile" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="580" y="470" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ctLkJCkqgNsg4VzJp4w8-23" value="Consent and Preference Management" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="750" y="470" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ctLkJCkqgNsg4VzJp4w8-24" value="Store" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="415.5" y="410" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ctLkJCkqgNsg4VzJp4w8-25" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="270" width="920" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="ctLkJCkqgNsg4VzJp4w8-26" value="Analyse" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="415.5" y="250" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ctLkJCkqgNsg4VzJp4w8-27" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="120" width="920" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="ctLkJCkqgNsg4VzJp4w8-28" value="Act" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="415.5" y="100" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ctLkJCkqgNsg4VzJp4w8-29" value="Personalization Engine" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="90" y="300" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ctLkJCkqgNsg4VzJp4w8-30" value="Connected Customer Engine" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="300" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ctLkJCkqgNsg4VzJp4w8-31" value="Enriched Customer Profile" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="580" y="300" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ctLkJCkqgNsg4VzJp4w8-32" value="Fedarated Query" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="760" y="300" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ctLkJCkqgNsg4VzJp4w8-33" value="Accelerated Issue Resolution" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="90" y="150" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ctLkJCkqgNsg4VzJp4w8-34" value="Personlized Recommendations" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="230" y="150" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ctLkJCkqgNsg4VzJp4w8-35" value="Personlized Content" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="510" y="150" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ctLkJCkqgNsg4VzJp4w8-36" value="Proactive Customer Support" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="370" y="150" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ctLkJCkqgNsg4VzJp4w8-37" value="Easy Case Management" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="650" y="150" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ctLkJCkqgNsg4VzJp4w8-38" value="Automated Compensation Management" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="790" y="150" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ctLkJCkqgNsg4VzJp4w8-39" value="Semi-structured&lt;br&gt;(Social media)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="640" width="290" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ctLkJCkqgNsg4VzJp4w8-40" value="Structured&lt;br&gt;(Data from Applications, SAAS)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="640" width="220" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ctLkJCkqgNsg4VzJp4w8-41" value="Unstructured&lt;br&gt;(chat, call logs, images, email etc.)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="680" y="640" width="250" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
