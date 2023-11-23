@@ -1,25 +1,5 @@
 # Architectural Principles
 
-## Solutions should be business event driven
-
-### Statement
-Solutions must respond to state changes of business transactions; they must preserve the integrity of the event and the solution response.
-
-### Rationale:
--   Business event driven solutions promote customer centric architectures and increase visibility to the business.
--   Interactions between systems and events are formally defined; adhere to a communication standard and have measured performance.
--   Cohesive modules are easier to change, test and reuse.
--   Loosely coupled modules are easier to change, test and reuse.
--   Enables better understanding of the impact or ramifications of a change.
--   Reduces development time and total cost of ownership.
-
-### Implications:
--   Solution revitalization efforts must ensure that the target solution is business event driven.
--   Business Transactions are event initiated and integrity will be maintained and monitored. Business processes should be business event initiated.
--   Each solution component, application, and architecture artifact must be well documented.
--   Solution components and architecture elements must be clearly distinguished from the mechanisms that allow them to interact.
--   Compliance business rules must be embedded in solutions in a manner that minimizes the need for change in solution or application programming logic.
-
 ## Solutions are resilient and available
 ### Statement
 Solutions shall be constructed and implemented in a manner that ensures that business capabilities continue to be available in the face of a component failure, underlying changes in the technology, adverse events and continue to meet the business needs.
@@ -61,6 +41,26 @@ Solutions, software applications and technology components must be designed, dev
 -   An integration and interoperability approach must be constructed to ensure the separation of business functionality and technology elements.
 -   Enterprise must ensure established solution components are serviced by multiple layers of operational support (automated monitoring, IT Help Desk, IT operations, subject matter experts).
 -   Vendor solutions and technologies must be evaluated for their ability to provide interoperability.
+
+## Solutions should be business event driven
+
+### Statement
+Solutions must respond to state changes of business transactions; they must preserve the integrity of the event and the solution response.
+
+### Rationale:
+-   Business event driven solutions promote customer centric architectures and increase visibility to the business.
+-   Interactions between systems and events are formally defined; adhere to a communication standard and have measured performance.
+-   Cohesive modules are easier to change, test and reuse.
+-   Loosely coupled modules are easier to change, test and reuse.
+-   Enables better understanding of the impact or ramifications of a change.
+-   Reduces development time and total cost of ownership.
+
+### Implications:
+-   Solution revitalization efforts must ensure that the target solution is business event driven.
+-   Business Transactions are event initiated and integrity will be maintained and monitored. Business processes should be business event initiated.
+-   Each solution component, application, and architecture artifact must be well documented.
+-   Solution components and architecture elements must be clearly distinguished from the mechanisms that allow them to interact.
+-   Compliance business rules must be embedded in solutions in a manner that minimizes the need for change in solution or application programming logic.
 
 ## References
 - https://www.linkedin.com/pulse/developing-enterprise-architecture-principals-which-justice-aj-/
