@@ -294,62 +294,45 @@ Through personalized attention, tailored services, and efficient issue resolutio
        - Automated notification of baggage-related issues to relevant departments for prompt resolution.
 
 ## Architecturally Significant Business Requirements
-### Unified Customer Profile:
 
-- The platform should provide a unified customer profile that consolidates information from various touchpoints, including ticket booking platforms, call centers, check-in desks, in-flight retail, and other relevant sources.
-- Customer profiles should include historical data, preferences, past interactions, and feedback to offer a holistic view of each passenger.
+## Key Business Requirements
 
-### Real-time Data Synchronization:
+1. **Centralized Customer Data Repository:**
+   - The platform must have a centralized and scalable repository that aggregates and stores customer data from various touchpoints and systems, ensuring a single source of truth for customer information.
 
-- Ensure real-time synchronization of customer data across all integrated systems, allowing agents and staff to access the most up-to-date information.
-- Changes made in one system (e.g., booking platform, call center) should be reflected seamlessly across all other connected systems.
+2. **Segmentation and Personalization Tools:**
+   - The system should provide robust tools for segmenting customers based on criteria such as travel history, preferences, and loyalty status. Additionally, it should support personalization features to tailor interactions and offers to individual customers.
 
-### Integration with Loyalty Platform:
+3. **Privacy and Compliance:**
+   - The platform must comply with privacy regulations, ensuring that personal data is handled responsibly. It should enable the sharing of profile data with strategic partners while preserving customer anonymity. The system should adhere to GDPR, PCIDSS, and other regulatory requirements, with encryption of sensitive data at rest and in transit.
 
-- Integrate with the loyalty platform to capture and leverage customer loyalty data, including tier status, points, and special privileges. This integration should facilitate personalized interactions and promotions.
+4. **Comprehensive Customer Profiles:**
+   - Customer profiles should be detailed and comprehensive, including personal information, travel history, preferences, and past interactions. The platform should support continuous updating of customer profiles based on real-time data from various touchpoints.
 
-### Seamless Booking System Integration:
+5. **Interaction Logs and Timeline Views:**
+   - The system must maintain logs of all past interactions, including calls, emails, chats, and retail purchases, stored within customer profiles. A chronological timeline view of each customer's interactions and transactions should be available for easy tracking and reference.
 
-- Integrate with online and agent-based booking systems to capture booking history, seat preferences, and any special requests made by the passenger.
-- Enable a seamless experience for customers across various booking channels.
+6. **Order Management and Personalization:**
+   - The platform should capture and store customer preferences related to orders, such as meal choices or seating preferences. It should support the personalization of future orders based on customer preferences and integrate with customer support systems to address order-related issues promptly.
 
-### Comprehensive Call Center Integration:
+7. **Compensation Management:**
+   - The system must facilitate the creation, prioritization, tracking, and updates of customer cases. It should include case assignment, routing, and escalation capabilities, as well as customer self-service options. Notifications regarding case status and closures should be automated.
 
-- Integrate with the contact center system to provide agents with a 360-degree view of customer profiles, enabling efficient issue resolution and reducing the time required to handle complaints.
+8. **Intuitive Interfaces and Navigation:**
+   - The platform should provide intuitive, multi-channel, and user-friendly interfaces for passengers, call center agents, check-in agents, cabin crew, service management, and retail staff. Simplified navigation and clear layouts for accessing customer profiles and historical data are crucial.
 
-### Knowledge Base Integration:
+9. **Real-time Data Processing and Analysis:**
+   - The system should support real-time data processing and analysis to provide timely insights and responses. Advanced analytics capabilities, including machine learning and predictive analytics, should be integrated to enhance decision-making.
 
-- Integrate with a knowledge base system that supports support agents in accessing relevant information and solutions when addressing complaints or queries.
-- Ensure that the knowledge base is regularly updated with the latest information.
+10. **Sentiment Analysis and Action Planning:**
+    - The platform should include sentiment analysis of customer feedback and social media mentions to gauge passenger satisfaction. It should also have the capability to envisage various actions that could be implemented for a specific customer and choose the best possible option to implement.
 
-### Check-in Systems Integration:
+11. **Authentication and Authorization:**
+    - Robust authentication and authorization mechanisms, including Role-Based Access Control (RBAC) and Multi-Factor Authentication (MFA), should be implemented to ensure the right level of access for different users.
 
-- Integrate with both agent-based and self-service check-in systems to provide check-in agents with relevant customer information, including previous flight experiences and any special considerations.
+12. **Logging and Auditing:**
+    - The system must provide comprehensive logging and auditing of all customer data access and modifications to ensure transparency and accountability. This includes tracking user activities and modifications made to customer records.
 
-### In-flight Retail and Meal Order Integration:
-
-- Integrate with in-flight retail and meal order systems to capture passenger preferences and purchase history.
-- Enable cabin crew members to provide personalized recommendations and improve sales conversion rates.
-
-### Baggage Management System Integration:
-
-- Integrate with baggage management and handling systems to track the status and location of passengers' luggage.
-- Provide real-time updates to passengers and customer service agents in case of any issues.
-
-### Chauffer Driven Services Integration:
-
-- Integrate with chauffeur-driven services to capture passenger preferences, past usage, and any special requirements.
-- Ensure a seamless and personalized experience for passengers using chauffeur-driven services.
-
-### Security and Compliance:
-
-- Implement robust security measures to safeguard customer data and ensure compliance with data protection regulations.
-- Define access controls and authentication mechanisms to restrict access to sensitive customer information.
-
-### Analytics and Reporting:
-
-- Implement analytics tools to track customer satisfaction metrics, sales conversion rates, and other key performance indicators.
-- Provide comprehensive reporting capabilities for different stakeholders, including Customer Affairs, Sales, Marketing, and Airport Operations.
 
 ## Architecturally Significant Business Requirement and Business Driver mapping
 
