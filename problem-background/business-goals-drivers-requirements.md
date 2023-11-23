@@ -336,21 +336,21 @@ Through personalized attention, tailored services, and efficient issue resolutio
 
 ## Architecturally Significant Business Requirement and Business Driver mapping
 
-| Architecturally Significant Business Requirement                                           | Business Drivers                                      |
-| ------------------------------------------------------------ | ------------------------------------------------------ |
-| Unified Customer Profile                                      | Customer Experience Improvement, Customer Retention and Loyalty, Operational Efficiency, Data-Driven Decision Making, Agile Response to Customer Needs, Employee Empowerment |
-| Seamless Booking System Integration                             | Revenue Growth, Customer Retention and Loyalty, Competitive Advantage, Brand Image Enhancement |
-| Integration with Loyalty Platform                               | Customer Retention and Loyalty, Data-Driven Decision Making |
-| Real-time Data Synchronization                                   | Customer Experience Improvement, Operational Efficiency, Data-Driven Decision Making, Agile Response to Customer Needs, Employee Empowerment |
-| Comprehensive Call Center Integration                         | Customer Experience Improvement, Operational Efficiency, Data-Driven Decision Making, Employee Empowerment |
-| Knowledge Base Integration                                     | Customer Experience Improvement, Operational Efficiency, Data-Driven Decision Making, Employee Empowerment |
-| Check-in Systems Integration                                      | Customer Experience Improvement, Operational Efficiency, Employee Empowerment |
-| In-flight Retail and Meal Order Integration                  | Revenue Growth, Customer Retention and Loyalty, Competitive Advantage |
-| Baggage Management System Integration                     | Customer Experience Improvement, Operational Efficiency, Agile Response to Customer Needs, Employee Empowerment |
-| Chauffer Driven Services Integration                           | Revenue Growth, Customer Retention and Loyalty, Agile Response to Customer Needs, Employee Empowerment |
-| Analytics and Reporting                                           | Revenue Growth, Operational Efficiency                  |
-| Brand Image Enhancement                                      | Competitive Advantage, Brand Image Enhancement          |
-| Security and Compliance                                           | Compliance and Security                                |
+| Business Requirement                     | Business Drivers                                       |
+|------------------------------------------|--------------------------------------------------------|
+| Centralized Customer Data Repository     | Customer Experience Improvement, Data-Driven Decision Making, Operational Efficiency |
+| Segmentation and Personalization Tools   | Customer Experience Improvement, Revenue Growth, Competitive Advantage |
+| Privacy and Compliance                   | Data-Driven Decision Making, Compliance and Security   |
+| Comprehensive Customer Profiles          | Customer Experience Improvement, Data-Driven Decision Making |
+| Interaction Logs and Timeline Views       | Customer Experience Improvement, Operational Efficiency |
+| Order Management and Personalization     | Customer Experience Improvement, Revenue Growth        |
+| Compensation Management                  | Customer Experience Improvement, Operational Efficiency |
+| Intuitive Interfaces and Navigation      | Customer Experience Improvement, Operational Efficiency, Employee Empowerment |
+| Real-time Data Processing and Analysis    | Data-Driven Decision Making, Operational Efficiency    |
+| Sentiment Analysis and Action Planning    | Customer Experience Improvement, Agile Response to Customer Needs |
+| Authentication and Authorization         | Compliance and Security                                |
+| Logging and Auditing                      | Compliance and Security                                |
+
 
 
 ## Significant Non-Functional requirements 
