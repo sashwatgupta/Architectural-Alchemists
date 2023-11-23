@@ -351,7 +351,8 @@ Through personalized attention, tailored services, and efficient issue resolutio
 - Implement analytics tools to track customer satisfaction metrics, sales conversion rates, and other key performance indicators.
 - Provide comprehensive reporting capabilities for different stakeholders, including Customer Affairs, Sales, Marketing, and Airport Operations.
 
-##
+## Architecturally Significant Business Requirement and Business Driver mapping
+
 | Architecturally Significant Business Requirement                                           | Business Drivers                                      |
 | ------------------------------------------------------------ | ------------------------------------------------------ |
 | Unified Customer Profile                                      | Customer Experience Improvement, Customer Retention and Loyalty, Operational Efficiency, Data-Driven Decision Making, Agile Response to Customer Needs, Employee Empowerment |
@@ -368,24 +369,5 @@ Through personalized attention, tailored services, and efficient issue resolutio
 | Brand Image Enhancement                                      | Competitive Advantage, Brand Image Enhancement          |
 | Security and Compliance                                           | Compliance and Security                                |
 
-# Requirements and Engagement model
-
-## Engagement Models
-
-
-## Architecturally Significant Business Requirements
-
-| # | Significant Architectural Requirements | Business Goal |
-|----|----|----|
-| 1 | Customer profiles | 1 |
-| 2 | Geographical trend analysis  | 1 |
-| 3 | Community engagement  | 1 |
-| 4 | eDietician advice & interaction  | 2 |
-| 5 | Improve food Distribution  |  |
-| 6 | Medical profile information  | 3 |
-| 7 | Profile customization  | 1 |
-| 8 | Third party relationships   | 2 |
-| 9 | Holistic UX   | 1, 2 |
-| 10 | Customer engagement   |  2 |
 
 ## Significant Non-Functional requirements 
