@@ -45,6 +45,92 @@ Through personalized attention, tailored services, and efficient issue resolutio
 10. **Employee Empowerment:**
     Empowering employees with the tools and information they need is a driver. The CMP aims to provide call center agents, cabin crew, and other staff with a 360-degree view of customer interactions, contributing to better service delivery.
 
+## Functional Requirements
+
+### 1. Customer Profile Management:
+
+1. Data Capture and Aggregation:
+   - The system should allow the capture of detailed customer information, including personal details, travel history, and preferences.
+   - Integration with ticket booking platforms, call center systems, check-in desks, in-flight retail, lounges, chauffeur-driven services, and baggage services for data aggregation.
+
+2. Centralized Repository:
+   - Maintain a centralized repository for storing customer data from various touchpoints and systems.
+
+3. Segmentation Tools:
+   - Provide tools for segmenting customers based on criteria such as travel history, preferences, and loyalty status.
+
+4. Personalization Features:
+   - Enable personalization of customer interactions and offers based on individual preferences.
+
+5. Data Sharing:
+   - Implement a mechanism to share profile data with strategic partners while ensuring compliance with privacy regulations and preserving customer anonymity.
+
+### 2. Customer Interaction Management:
+
+1. Interaction Logging:
+   - Capture and log all customer interactions, including calls, emails, chats, and in-flight retail purchases.
+
+2. Timeline View:
+   - Present a chronological timeline view of each customer's interactions and transactions for easy tracking and reference.
+
+3. Feedback Integration:
+   - Integrate critical information from customer feedback data, including complaints, compliments, cases, and suggestions, into customer profiles.
+
+### 3. Customer Order Management:
+
+1. Preferences Capture:
+   - Capture and store customer preferences related to orders, such as meal choices and seating preferences.
+
+2. Personalization:
+   - Enable personalization of future orders based on customer preferences.
+
+3. Integration with Support:
+   - Integrate with customer support and complaint handling systems to address order-related issues promptly.
+
+### 4. Compensation Management:
+
+1. Case Lifecycle:
+   - Provide capabilities for case creation, prioritization, tracking, and updates.
+   - Implement case assignment, routing, and escalation capabilities.
+
+2. Self-Service:
+   - Enable customer self-service capabilities for case management.
+
+3. Notifications:
+   - Implement notifications regarding case status and closures.
+
+### 5. Case Management:
+
+1. User-Friendly Interfaces:
+   - Develop intuitive, multi-channel interfaces for passengers, call center agents, check-in agents, cabin crew, service management, and retail staff.
+
+2. Navigation and Layout:
+   - Design simplified navigation and clear layouts to access customer profiles and historical data.
+
+3. Data Collection Mechanisms:
+   - Implement data collection mechanisms from all touchpoints to gather information on passenger interactions, preferences, and behaviors.
+
+4. Real-Time Processing:
+   - Ensure real-time data processing and analysis to provide timely insights and responses.
+
+5. Analytics Capabilities:
+   - Integrate advanced analytics capabilities, including machine learning and predictive analytics.
+   - Implement sentiment analysis of customer feedback and social media mentions to gauge passenger satisfaction.
+   - Provide the capability to envisage various actions for specific customers and choose the best possible option to implement.
+
+### 6. Customer Analytics Capabilities:
+
+1. Authentication and Authorization:
+   - Implement right authentication and authorization mechanisms.
+   - Support Role-Based Access Control (RBAC) and Multi-Factor Authentication (MFA).
+
+2. Security and Compliance:
+   - Ensure sensitive data is encrypted at rest and during transit.
+   - Conform to GDPR, PCIDSS, and other regulatory requirements.
+
+3. Logging and Auditing:
+   - Implement comprehensive logging and auditing of all customer data access and modifications.
+
 ## Actor Overview
 
 ### 1. **Customer Affairs**
