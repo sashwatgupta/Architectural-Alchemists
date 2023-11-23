@@ -295,8 +295,6 @@ Through personalized attention, tailored services, and efficient issue resolutio
 
 ## Architecturally Significant Business Requirements
 
-## Key Business Requirements
-
 1. **Centralized Customer Data Repository:**
    - The platform must have a centralized and scalable repository that aggregates and stores customer data from various touchpoints and systems, ensuring a single source of truth for customer information.
 
