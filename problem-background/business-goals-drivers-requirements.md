@@ -255,7 +255,7 @@ Through personalized attention, tailored services, and efficient issue resolutio
 4. **Passenger Reservation System Integration:**
    - *Objective:* Ensure accurate and up-to-date passenger information.
    - *Integration Points:*
-      - Bi-directional synchronization with the Passenger Reservation System for real-time updates on flight changes, seat preferences, and special requests.
+      - Integration with the Passenger Reservation System for real-time updates on flight changes, seat preferences, and special requests.
 
 5. **Inflight Retail and Meal Order System Integration:**
    - *Objective:* Enhance the inflight shopping experience and cater to passenger preferences.

@@ -5,8 +5,8 @@
 # Solution Structure
 
 Problem Background
-- Business Goals, Drivers & Requirements
-- Stakeholder Concerns
+- [Business Goals, Drivers & Requirements ](/problem-background/business-goals-drivers-requirements.md)
+- [Stakeholder Concerns](/problem-background/stakeholder-concerns.md)
 - Architecture Analysis
 - Actors, Actions & Significant Scenarios
 - Constraints & Assumptions
