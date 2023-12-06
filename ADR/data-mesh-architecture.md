@@ -7,6 +7,7 @@
 ## Context
 In the ever-evolving landscape of data management, our organization is faced with the challenge of scaling and decentralizing our data infrastructure. The traditional monolithic data architecture has become a bottleneck, impeding agility, scalability, and the ability to innovate. After thorough research and evaluation of various data architectures, we have decided to adopt the Data Mesh architecture to address these challenges.
 
+
 ## Decision
 We choose to implement the Data Mesh architecture to manage our organization's data ecosystem.
 
