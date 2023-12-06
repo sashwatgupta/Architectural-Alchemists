@@ -30,6 +30,6 @@ real-time data and Secure File Transfer Protocol.
 
     **Discovery:** AWS services like Athena, Glue Crawler and Data Quality are used for auto-discovery of metadata of services and asseses the data quality.
 
-4. **Account - Machine Learning:**ML (Machine Learning) is performed using Lake Formation. Use Amazon SageMaker to provide standard AI/ML models for customer segmentations, lifetime value and sentiment analysis. Other AI services such as Amazon Personalize can be utilized to get actionable insight.
+4. **Account - Machine Learning:** ML (Machine Learning) is performed using Lake Formation. Use Amazon SageMaker to provide standard AI/ML models for customer segmentations, lifetime value and sentiment analysis. Other AI services such as Amazon Personalize can be utilized to get actionable insight.
 
 5. **Consumer Account - Business Analytics Domain:** Build all reportable data sets in Amazon S3 and leverage Amazon Redshift and Amazon Athena for analytics. Optionally, for heavily used analytics, build data marts in Amazon Redshift.For ad-hoc requirements, use Athena to analyse data in the data lake with standard SQL.
