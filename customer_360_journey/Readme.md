@@ -29,7 +29,7 @@ Major components of the data mesh are:
     There are three types of domains classified by data characteristics and data product usage:-
     - Source-aligned - publish data products correspond closely to the domain events and entities generated in their operational systems.
     - Aggregate -  focuses solely on delivering a data product that is aggregated of various data products from other domains
-    - Consumer-aligned - emphasizes the alignment of data domains with the needs and requirements of specific consumer groups
+    - Consumer-aligned -  business departments that need data from the whole value stream to make sensible decisions, emphasizes the alignment of data domains with the needs and requirements of specific consumer groups
 ![Data mesh domains](/resources/data-mesh-domain.jpg)
 
 2. Central Governance -     The central data governance account serves as a hub for managing a comprehensive data catalog that spans all enterprise accounts. Key responsibilities include:
@@ -67,6 +67,6 @@ A high level simplified diagram of the customer data platform.
 
     **Discovery:** AWS services like Athena, Glue Crawler and Data Quality are used for auto-discovery of metadata of services and asseses the data quality.
 
-4. **Account - Machine Learning:** ML (Machine Learning) is performed using Lake Formation. Use Amazon SageMaker to provide standard AI/ML models for customer segmentations, lifetime value and sentiment analysis. Other AI services such as Amazon Personalize can be utilized to get actionable insight. The aggregate data is pro
+4. **Account - Machine Learning:** ML (Machine Learning) is performed using Lake Formation. Use Amazon SageMaker to provide standard AI/ML models for customer segmentations, lifetime value and sentiment analysis. Other AI services such as Amazon Personalize can be utilized to get actionable insight and personalisation. 
 
 5. **Account - Business Analytics Domain:** Build all reportable data sets in Amazon S3 and leverage Amazon Redshift and Amazon Athena for analytics. Optionally, for heavily used analytics, build data marts in Amazon Redshift.For ad-hoc requirements, use Athena to analyse data in the data lake with standard SQL.
