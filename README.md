@@ -6,11 +6,11 @@
 
 Problem Background
 - [Business Goals, Drivers & Requirements ](/problem-background/business-goals-drivers-requirements.md)
+- [Functional Requirements](/problem-background/functional-requirements.md)
 - [Stakeholder Concerns](/problem-background/stakeholder-concerns.md)
-- Architecture Analysis
-- Actors, Actions & Significant Scenarios
-- Constraints & Assumptions
-- RAID Log
+- [Non Functional Goals](/problem-background/non-functional-goals-drivers.md)
+- [Constraints & Assumptions](/problem-background/assumptions.md)
+
 
 Solution Background
 - Architecture Principles

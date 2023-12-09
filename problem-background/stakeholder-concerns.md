@@ -1,11 +1,17 @@
 # Stakeholder Summary
 
-The following are the concerns from the various stakeholders of the system. These will be informative in deciding the [architectural characteristics](ArchitectureAnalysis.md) and informing decisions on the architecture of the Farmacy Family system.
+The following are the concerns from the various stakeholders of the system. These will be informative in deciding the [architectural characteristics](ArchitectureAnalysis.md) and informing decisions on the architecture.
 
-| Stakeholder            | Concerns                                                     | Initial Thoughts on Characteristics/Generics     |
-| ---------------------- | ------------------------------------------------------------ | ------------------------------------------------ |
-| Transactional Customer | - seamless experience across Foods and Family<br/>- better experience ordering from fridges: availability of popular foods | Integration, Analytics, Data Integrity           |
-| Engaged Customer       | - seamless experience across Foods and Family<br/>- engage with other customers in their locality | Integration, Communication                       |
-| Dietician              | - ensure advice is given only to customers who have agreed to receive it<br/>- receive notification of messages from customers | Security, Permissions, Communications            |
-| Admin                  | - maintain events, classes, forums and users with ease<br/>  | Administration, Community, Workflow              |
-| Clinic                 | - ensure advice is given only to customers who have agreed to receive it<br/>- gain insight from Family analytics | Security, Permissions, Analytics, Data Integrity |
+| Stakeholder               | Concern                                                                            | Intital thoughts                                                                                                                                     |
+|---------------------------|------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------|
+| **Customer Affairs**      | Ensuring accurate reflection of customer profiles and interactions                 | Implement robust customer interaction management and compensation management systems for enhanced customer support                            |
+| **Skywards**              | Maintaining and enhancing the loyalty program effectiveness                          | Integration with the loyalty platform to track and reward customer loyalty accurately                                                        |
+| **Corporate Communications** | Maintaining a positive brand image through personalized communication               | Ensure customer analytics capabilities include sentiment analysis for gauging passenger satisfaction and addressing issues promptly            |
+| **Sales**                 | Maximizing sales opportunities through personalized interactions                    | Integration with in-flight retail and meal order systems for tailored sales strategies based on customer preferences                           |
+| **Contact Center**        | Streamlining customer complaint resolution and minimizing call handling time        | Provide comprehensive customer profiles and case management tools for efficient case handling                                                 |
+| **Marketing**             | Targeting the right audience with personalized offers                               | Integration with marketing management systems to leverage customer profiles for targeted campaigns                                            |
+| **In-flight Retail**      | Enhancing sales conversion rates and providing a personalized retail experience     | Integration with in-flight retail systems and customer analytics to tailor product offerings                                                 |
+| **Catering**             | Ensuring in-flight catering aligns with passenger preferences                        | Integration with passenger reservation systems to gather data on meal preferences                                                            |
+| **Service Delivery**      | Meeting customer expectations during travel                                          | Providing personalized services based on comprehensive customer profiles and preferences                                                    |
+| **Airport Operations**    | Efficient check-in processes and personalized services                              | Integration with agent-based and self-service check-in systems for a seamless experience                                                     |
+| **Chauffer Driven Services** | Offering personalized services to passengers                                       | Integrating customer profiles for tailored chauffeur-driven services based on preferences                                                    |
