@@ -102,7 +102,3 @@ Through personalized attention, tailored services, and efficient issue resolutio
 | Sentiment Analysis and Action Planning    | Customer Experience Improvement, Agile Response to Customer Needs |
 | Authentication and Authorization         | Compliance and Security                                |
 | Logging and Auditing                      | Compliance and Security                                |
-
-
-
-## Significant Non-Functional requirements 
