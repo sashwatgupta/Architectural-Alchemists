@@ -15,3 +15,6 @@ The following are the concerns from the various stakeholders of the system. Thes
 | **Service Delivery**      | Meeting customer expectations during travel                                          | Providing personalized services based on comprehensive customer profiles and preferences                                                    |
 | **Airport Operations**    | Efficient check-in processes and personalized services                              | Integration with agent-based and self-service check-in systems for a seamless experience                                                     |
 | **Chauffer Driven Services** | Offering personalized services to passengers                                       | Integrating customer profiles for tailored chauffeur-driven services based on preferences                                                    |
+| **Data Privacy Office** | Manage customer consent management sprawls across disparate operational systems | Having view of PII data, capability to identify new PII data      |
+| **Customer Relations** | Manage the customer relationships, analyse customer data | Integration with multiple systems or aggregated system to get data   |
+

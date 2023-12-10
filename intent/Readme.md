@@ -1,15 +1,25 @@
-# High Level System Landscape
+# Solution Intent
+
+<!-- TOC -->
+- [Objective](#objective)
+- [Solution Context](#solution-context)
+- [Solution Vision](#solution-vision)
+- [Logical Architecture Data Mesh](#logical-architecture-data-mesh)
+- [Solution Context](#solution-context)
+
+<!-- /TOC -->
 
 ## Objective
 Design a customer management platform that enables the foundation of data-driven, customer centric organisation.
 
-## Solution Vision
-To provide a solution to the above statement we need an architecture that can provide agility to the organisation. The solution should empower systems/teams to get the customer 360 view and share data easily.
+## Solution Context
+The below diagram depicts the context view for the solution.
+![context view](/resources/context-view.jpg)
 
-Our vision for the data architecture of our organization is centered around the principles of Data Mesh [ADR link- TODO], an approach that promotes decentralization and domain-oriented thinking. This visionary architecture aims to transform our data landscape, empowering teams, improving agility, and fostering a culture of data-driven innovation.
+## Logical Architecture 
+A high level logical architecture is shown below.
 
-## Logical Architecture Data Mesh
-
+Our vision for the data architecture of our organization is centered around the principles of Data Mesh [ADR](/ADR/data-mesh-architecture.md), an approach that promotes decentralization and domain-oriented thinking. This visionary architecture aims to transform our data landscape, empowering teams, improving agility, and fostering a culture of data-driven innovation.
 The objective for this design is to create a foundation for building data platforms at scale, supporting the objectives of data producers and consumers with strong and consistent governance.
 
 ![simple](/resources/data-mesh-dets1.png)
@@ -40,7 +50,11 @@ Major components of the data mesh are:
     - Provides centralized access control for enterprise-wide data sharing.
     - Ensures that security, governance, and auditing policies are consistently applied across shared data.
 
-## Solution Context
+The operational data is published as a data domain.
+![domain design](/resources/Logical%20architecture-domain.jpg)
+
+## System Architecture
+We are using AWS as the platform for all the services [ADR](/ADR/cloud-platform-selection.md). 
 
 A high level simplified diagram of the customer data platform. 
 

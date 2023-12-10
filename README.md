@@ -13,7 +13,7 @@ Problem Background
 
 
 Solution Background
-- Architecture Principles
+- [Architecture Principles](/principles/architectural-principles.md)
 - Conceptual System Design
 - Security
 - Deployment

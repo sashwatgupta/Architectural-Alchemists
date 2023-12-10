@@ -1,6 +1,7 @@
 # Architectural Principles
 
 <!-- TOC depthfrom:2 depthto:2 -->
+
 - [Latency-aware Design Principles](#latency-aware-design-principles)
 - [Instrumentation for Comprehensive Data](#instrumentation-for-comprehensive-data)
 - [Automation for Operational Efficiency](#automation-for-operational-efficiency)
@@ -11,9 +12,8 @@
 - [Design for Scalability](#design-for-scalability)
 - [Secure Solutions](#secure-solutions)
 - [Solutions are resilient and available](#solutions-are-resilient-and-available)
-<!-- /TOC -->
 
----
+<!-- /TOC -->
 ## Latency-aware Design Principles
 
 ### Statement
