@@ -9,10 +9,8 @@
 
 <!-- /TOC -->
 
-<!-- /TOC -->
-
 ## Objective
-Design a customer management platform that enables the foundation of data-driven, customer centric organisation.
+Design a customer management platform that enables the foundation of data-driven, customer centric organization.
 
 ## Solution Context
 The below diagram depicts the context view for the solution.
@@ -99,6 +97,7 @@ A high level simplified diagram of the customer data platform.
 - Gets a customer 360 view from Customer 360 aggregate domain
 
 9. **Compensation Management:** 
-- [Intent](/intent/compensation-management.md)
+- The compensation management gets events for flight cancellations, delays and baggage handling.
+- The event initiates the automated or manual compensation
 
 
