@@ -92,31 +92,31 @@ A high level simplified diagram of the customer data platform.
 
 5. **Account - Business Analytics Domain:** Build all reportable data sets in Amazon S3 and leverage Amazon Redshift and Amazon Athena for analytics. Optionally, for heavily used analytics, build data marts in Amazon Redshift.For ad-hoc requirements, use Athena to analyze data in the data lake with standard SQL.
 
-6. **Customer 360:** Build an aggregate domain to serve the Customer 360 view to other systems. Neptune a graph database is used  [Customer 360 Database selection](/ADR/customer-360-database.md). Lambda functions can be used to capture events from multiple systems and save them in the graph database. Relevant data requests are made to the systems via the central governance to access the data. Data is found using the data catalog to add to the customer view.
+6. **Customer 360:** Build an aggregate domain to serve the Customer 360 view to other systems. Interactions are also logged in chronological order from different channels.Neptune a graph database is used  [Customer 360 Database selection](/ADR/customer-360-database.md). Lambda functions can be used to capture events from multiple systems and save them in the graph database. Relevant data requests are made to the systems via the central governance to access the data. Data is found using the data catalog to add to the customer view.
 
 8. **Compensation Management:** 
 - The [compensation management](/intent/compensation-management.md) gets events for flight cancellations, delays and baggage handling.
 - The event initiates the automated or manual compensation management.
 
 9. **Case Management:** 
-Case management creates cases automatically based on system identified issues, through agents, different entry points in web and mobile applications and manually by the users in the system.
+[Case management](/intent/case-management.md) creates cases automatically based on system identified issues, through agents, different entry points in web and mobile applications and manually by the users in the system.
 
-### Architecturally Significant Requirement realization
-| Business Requirement                     | Business Drivers                                       |
+### Architecturally Significant Requirement Realization
+| Business Requirement                     | Realization                                   |
 |------------------------------------------|--------------------------------------------------------|
-| Centralized Customer Data Repository     | Customer Experience Improvement, Data-Driven Decision Making, Operational Efficiency |
-| Segmentation and Personalization Tools   | Customer Experience Improvement, Revenue Growth, Competitive Advantage |
-| Privacy and Compliance                   | Data-Driven Decision Making, Compliance and Security   |
-| Comprehensive Customer Profiles          | Customer Experience Improvement, Data-Driven Decision Making |
-| Interaction Logs and Timeline Views       | Customer Experience Improvement, Operational Efficiency |
-| Order Management and Personalization     | Customer Experience Improvement, Revenue Growth        |
-| Compensation Management                  | Customer Experience Improvement, Operational Efficiency |
+| Centralized Customer Data Repository     | Customer 360 view has been provided, data can be viewed directly from source systems or viewed from customer 360 view based on the requirements |
+| Segmentation and Personalization Tools   | Segmentation, personalization and machine learning has been provided |
+| Privacy and Compliance                   | Data owner domain give access to the relevant data so data is more secure, Macie is used to identify any missing PII/sensitive information   |
+| Comprehensive Customer Profiles          | Comprehensive data is available in the data mash for discovery and usage |
+| Interaction Logs and Timeline Views       | Customer 360 graph database can store relevant timeline vies |
+| Order Management and Personalization     | Machine learning and personalization has been integrated, all the data will be discoverable through the data mesh   |
+| Compensation Management                  | Compensation management module is added |
 | Intuitive Interfaces and Navigation      | Customer Experience Improvement, Operational Efficiency, Employee Empowerment |
-| Real-time Data Processing and Analysis    | Data-Driven Decision Making, Operational Efficiency    |
-| Sentiment Analysis and Action Planning    | Customer Experience Improvement, Agile Response to Customer Needs |
-| Authentication and Authorization         | Compliance and Security                                |
-| Logging and Auditing                      | Compliance and Security                                |
+| Real-time Data Processing and Analysis    | Data is available as API, events as well as for batch ingestion for variety of use-cases  |
+| Sentiment Analysis and Action Planning    | Machine Learning to do sentiment analysis and next best action use-cases |
+| Authentication and Authorization         | All components are secure and fine grained data security is implemented                                |
+| Logging and Auditing                      | All systems integrate with the auditing, logging and monitoring tools                                |
 
-
+### Architecturally Significant Non-functional Requirement Realization
 
 
