@@ -1,5 +1,3 @@
-# Solution Intent
-
 <!-- TOC -->
 
 - [Objective](#objective)
@@ -54,7 +52,11 @@ The operational data is published as a data domain.
 ![domain design](/resources/Logical%20architecture-domain.jpg)
 
 ## System Architecture
-We are using AWS as the platform for all the services [ADR](/ADR/cloud-platform-selection.md). 
+We are using AWS as the platform for all the services [ADR](/ADR/cloud-platform-selection.md)
+
+[Reference architecture](/intent/reference-architecture.md) is provided for guidance and reference for building data products and systems.
+
+Refer to [ADR](/ADR/Readme.md) for Architecture Decision records.
 
 A high level simplified diagram of the customer data platform. 
 
@@ -96,8 +98,9 @@ A high level simplified diagram of the customer data platform.
 - Provides batch information to analytical systems
 - Gets a customer 360 view from Customer 360 aggregate domain
 
-9. **Compensation Management:** 
+8. **Compensation Management:** 
 - The compensation management gets events for flight cancellations, delays and baggage handling.
-- The event initiates the automated or manual compensation
+- The event initiates the automated or manual compensation management.
+
 
 

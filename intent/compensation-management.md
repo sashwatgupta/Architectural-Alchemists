@@ -1,23 +1,24 @@
-# Compensation Management System
 <!-- TOC depthfrom:1 depthto:3 -->
 
-- [Compensation Management System](#compensation-management-system)
-    - [Overview](#overview)
-    - [Components](#components)
-        - [AWS Fargate for Microservices:](#aws-fargate-for-microservices)
-        - [Amazon S3 for Document Storage:](#amazon-s3-for-document-storage)
-        - [AWS Step Functions for Workflow Orchestration:](#aws-step-functions-for-workflow-orchestration)
-        - [Amazon DynamoDB for State Management:](#amazon-dynamodb-for-state-management)
-        - [AWS Lambda for Serverless Compute:](#aws-lambda-for-serverless-compute)
-        - [AWS Cloudfront:](#aws-cloudfront)
-    - [Security Considerations](#security-considerations)
-    - [Monitoring and Logging](#monitoring-and-logging)
-    - [Scalability and Cost Optimization](#scalability-and-cost-optimization)
-    - [Conclusion](#conclusion)
+- [Overview](#overview)
+- [Components](#components)
+    - [AWS Fargate for Microservices:](#aws-fargate-for-microservices)
+    - [Amazon S3 for Document Storage:](#amazon-s3-for-document-storage)
+    - [AWS Step Functions for Workflow Orchestration:](#aws-step-functions-for-workflow-orchestration)
+    - [Amazon DynamoDB for State Management:](#amazon-dynamodb-for-state-management)
+    - [AWS Lambda for Serverless Compute:](#aws-lambda-for-serverless-compute)
+    - [AWS Cloudfront](#aws-cloudfront)
+    - [ElastiCache](#elasticache)
+    - [Load Balancer](#load-balancer)
+    - [API Gateway](#api-gateway)
+    - [Amazon Cognito](#amazon-cognito)
+- [Security Considerations](#security-considerations)
+- [Monitoring and Logging](#monitoring-and-logging)
+- [Scalability and Cost Optimization](#scalability-and-cost-optimization)
+- [Conclusion](#conclusion)
 
 <!-- /TOC -->
 ## Overview
-
 The Compensation Management System for Airline Travel is designed to automate and streamline the process of compensating passengers for flight-related inconveniences such as delays, cancellations, or lost baggage. This serverless architecture leverages AWS Fargate for containerized workloads and AWS Step Functions for orchestrating the compensation workflow.
 
 ## Components
@@ -66,8 +67,24 @@ Deploy serverless functions for specific tasks within the compensation workflow.
 
    - **Logging Lambda:** Logs compensation details into DynamoDB.
 
-### 3. AWS Cloudfront
+### 6. AWS Cloudfront
 Securely deliver content with low latency and high transfer speeds.
+
+### 7. ElastiCache
+ElastiCache (e.g., Redis) will be used for caching frequently accessed data, reducing database load and improving application responsiveness.
+
+### 8. Load Balancer
+An Application Load Balancer will distribute incoming web traffic across multiple Fargate containers, ensuring high availability, fault tolerance, and efficient resource utilization.
+
+### 9. API Gateway
+API Gateway will be used to create, publish, and manage APIs securely. It will facilitate communication between client applications and backend services.
+
+### 10. Amazon Cognito
+
+ Cognito will be employed for secure user authentication and authorization. It will manage user pools and federate identities across multiple identity providers.
+
+ ### 11. Data Product
+ Reference architecture for a data product is used to share the data domain to other systems.
 
 ## Security Considerations
 
