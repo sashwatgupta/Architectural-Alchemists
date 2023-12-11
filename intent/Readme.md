@@ -101,8 +101,21 @@ A high level simplified diagram of the customer data platform.
 9. **Case Management:** 
 Case management creates cases automatically based on system identified issues, through agents, different entry points in web and mobile applications and manually by the users in the system.
 
-
-
+### Architecturally Significant Requirement realization
+| Business Requirement                     | Business Drivers                                       |
+|------------------------------------------|--------------------------------------------------------|
+| Centralized Customer Data Repository     | Customer Experience Improvement, Data-Driven Decision Making, Operational Efficiency |
+| Segmentation and Personalization Tools   | Customer Experience Improvement, Revenue Growth, Competitive Advantage |
+| Privacy and Compliance                   | Data-Driven Decision Making, Compliance and Security   |
+| Comprehensive Customer Profiles          | Customer Experience Improvement, Data-Driven Decision Making |
+| Interaction Logs and Timeline Views       | Customer Experience Improvement, Operational Efficiency |
+| Order Management and Personalization     | Customer Experience Improvement, Revenue Growth        |
+| Compensation Management                  | Customer Experience Improvement, Operational Efficiency |
+| Intuitive Interfaces and Navigation      | Customer Experience Improvement, Operational Efficiency, Employee Empowerment |
+| Real-time Data Processing and Analysis    | Data-Driven Decision Making, Operational Efficiency    |
+| Sentiment Analysis and Action Planning    | Customer Experience Improvement, Agile Response to Customer Needs |
+| Authentication and Authorization         | Compliance and Security                                |
+| Logging and Auditing                      | Compliance and Security                                |
 
 
 
