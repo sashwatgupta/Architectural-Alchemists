@@ -68,10 +68,12 @@ A high level simplified diagram of the customer data platform.
     - AWS Eventbridge - is a serverless service that ingests events from own apps, SAAS application etc. It can also schedule data sync or pull events from supported sources.
     - AWS Kinesis - is a serverless streaming data service that simplifies the capture, processing, and storage of data streams
     - AWS Data exchange - is a service that can easily find, subscribe to, and use third-party data in the cloud
+    - AWS Lambda is used for scraping information from social media and posted Kinesis for ingestion.
 
 2. **Producer Domain Accounts:** Data sources are managed by the Business Domain. Producers use organization-level blueprints to provide core services such as security, governance, and open standards.
     - Operational Data Store is built using Amazon DynamoDB and Amazon DynamoDB Accelerator (DAX) to provide consistent single digit-millisecond latency performance. The data is published using lambda and API gateway to consumers. DynamoDB data streams along with kinesis can be used to publish events to listening applications.
     - Entity resolution if required is done in the producer domain using AWS Entity Resolution.
+    - The data is published as events, API as well as S3 buckets to meet the needs of different consumer.
 
 3. **Central IT Platform:** AWS Lake Formation provides centralized management of security, governance and auditing policies including fine-grain permissions. It also enables automatic schema discovery and conversion to the required format.
 
@@ -85,22 +87,23 @@ A high level simplified diagram of the customer data platform.
 
     **Discovery:** AWS services like Athena, Glue Crawler and Data Quality are used for auto-discovery of metadata of services and assess the data quality.
 
-    
 
 4. **Account - Machine Learning:** ML (Machine Learning) is performed using Lake Formation. Use Amazon SageMaker to provide standard AI/ML models for customer segmentation, lifetime value and sentiment analysis. Other AI services such as Amazon Personalize can be utilized to get actionable insight and personalization. 
 
 5. **Account - Business Analytics Domain:** Build all reportable data sets in Amazon S3 and leverage Amazon Redshift and Amazon Athena for analytics. Optionally, for heavily used analytics, build data marts in Amazon Redshift.For ad-hoc requirements, use Athena to analyze data in the data lake with standard SQL.
 
-6. **Customer 360:** Build an aggregate domain to serve the Customer 360 view to other systems. Neptune a graph database is used  [Customer 360 Database selection](/ADR/customer-360-database.md).
-
-7.  **Loyalty Platform:**
-- Provides realtime customer preferences and points to operational systems through the data mesh
-- Provides batch information to analytical systems
-- Gets a customer 360 view from Customer 360 aggregate domain
+6. **Customer 360:** Build an aggregate domain to serve the Customer 360 view to other systems. Neptune a graph database is used  [Customer 360 Database selection](/ADR/customer-360-database.md). Lambda functions can be used to capture events from multiple systems and save them in the graph database. Relevant data requests are made to the systems via the central governance to access the data. Data is found using the data catalog to add to the customer view.
 
 8. **Compensation Management:** 
-- The compensation management gets events for flight cancellations, delays and baggage handling.
+- The [compensation management](/intent/compensation-management.md) gets events for flight cancellations, delays and baggage handling.
 - The event initiates the automated or manual compensation management.
+
+9. **Case Management:** 
+Case management creates cases automatically based on system identified issues, through agents, different entry points in web and mobile applications and manually by the users in the system.
+
+
+
+
 
 
 

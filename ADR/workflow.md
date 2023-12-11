@@ -37,12 +37,9 @@ We will use AWS Step Functions as the workflow orchestration solution for managi
 2. **Limited Customization:** While Step Functions provides a rich set of features, there might be cases where highly customized workflow logic requires additional coding within Lambda functions.
 
 ## Options Considered
+1. **Apache Airflow:** An open-source platform to programmatically author, schedule, and monitor workflows.
 
-1. **AWS Step Functions:** A fully managed service provided by AWS for workflow orchestration.
-
-2. **Apache Airflow:** An open-source platform to programmatically author, schedule, and monitor workflows.
-
-3. **AWS SWF (Simple Workflow Service):** An older AWS service for building scalable and resilient applications.
+2. **AWS SWF (Simple Workflow Service):** An older AWS service for building scalable and resilient applications.
 
 ## Decision Drivers
 
@@ -51,5 +48,7 @@ We will use AWS Step Functions as the workflow orchestration solution for managi
 2. **Ease of Use:** The visual workflow editor and built-in features simplify the design and management of workflows.
 
 3. **Scalability:** Step Functions can scale with the growth of our application and handle complex workflows efficiently.
+
+4. **Managed Service:** [Principle](/principles/architectural-principles.md#favor-managed-services) to prefer managed services is also a core driver.
 
 

@@ -88,7 +88,7 @@ store.
 5. Build all reportable data sets in Amazon S3 and this can be shared using Lakeformation.
 
 # Deployment architecture
-- All the services are deployed on three availability zones. 
-- Pilot light for DR will be used across multiple regions
+- All the services are deployed on three availability zones in the same region. 
+- [Pilot light](/ADR/dr-strategy.md) for DR will be used across multiple regions
 - Separate accounts will be used for different business units
 
