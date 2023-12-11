@@ -1,4 +1,8 @@
+<!-- TOC -->
 
+
+
+<!-- /TOC -->
 # Reference architecture for a data product
 The below is a reference architecture for a data product. This new to build a data platform that serves both operational and analytical needs by using domain owned design, maintained data properties, open data standards, purpose-built databases, and extensible serverless architecture. This data delivery platform architecture helps relieve and eventually replace the on-premises data platform load, leading to cost savings and an agile environment.
 
@@ -26,4 +30,4 @@ Optionally Fargate can be replaced by Lambda if required.
 - All the services are deployed on three availability zones. 
 - Pilot light for DR will be used across multiple regions
 - Separate accounts will be used for different business units
-- 
+

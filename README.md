@@ -18,15 +18,3 @@ Solution Background
 - [Solution Intent](/intent/Readme.md)
 - [ADRs](/ADR/Readme.md)
 
-Views & Perspectives
-- Functional View
-- Timeline View
-- Scenario Flow Diagrams
-- C4 Models
-
-
-# Reference
-https://github.com/tekiegirl/Archangels/tree/main
-
-
-

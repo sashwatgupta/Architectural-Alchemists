@@ -1,11 +1,13 @@
 # Solution Intent
 
 <!-- TOC -->
+
 - [Objective](#objective)
 - [Solution Context](#solution-context)
-- [Solution Vision](#solution-vision)
-- [Logical Architecture Data Mesh](#logical-architecture-data-mesh)
-- [Solution Context](#solution-context)
+- [Logical Architecture](#logical-architecture)
+- [System Architecture](#system-architecture)
+
+<!-- /TOC -->
 
 <!-- /TOC -->
 
@@ -77,10 +79,26 @@ A high level simplified diagram of the customer data platform.
 
     **Governance:** Data governance can be done by the multiple services like AWS CloudTrail to record API calls for auditing and compliance monitoring, Amazon CloudWatch for monitoring services for metrics and log files and AWS  CloudFormation to enforce enforcing governance policies.
 
+    **Privacy Management:** Privacy is managed using AWS MACIE to discover and protect sensitive data at scale.
+
     **Security & Access Management Services:** Security and access management can be achieved using multiple services provided by AWS. These services provide key and secrets managements, access management, privacy management, threat detection, vulnerability management etc.
 
     **Discovery:** AWS services like Athena, Glue Crawler and Data Quality are used for auto-discovery of metadata of services and assess the data quality.
 
+    
+
 4. **Account - Machine Learning:** ML (Machine Learning) is performed using Lake Formation. Use Amazon SageMaker to provide standard AI/ML models for customer segmentation, lifetime value and sentiment analysis. Other AI services such as Amazon Personalize can be utilized to get actionable insight and personalization. 
 
 5. **Account - Business Analytics Domain:** Build all reportable data sets in Amazon S3 and leverage Amazon Redshift and Amazon Athena for analytics. Optionally, for heavily used analytics, build data marts in Amazon Redshift.For ad-hoc requirements, use Athena to analyze data in the data lake with standard SQL.
+
+6. **Customer 360:** Build an aggregate domain to serve the Customer 360 view to other systems. Neptune a graph database is used  [Customer 360 Database selection](/ADR/customer-360-database.md).
+
+7.  **Loyalty Platform:**
+- Provides realtime customer preferences and points to operational systems through the data mesh
+- Provides batch information to analytical systems
+- Gets a customer 360 view from Customer 360 aggregate domain
+
+9. **Compensation Management:** 
+- [Intent](/intent/compensation-management.md)
+
+
