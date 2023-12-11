@@ -118,5 +118,20 @@ A high level simplified diagram of the customer data platform.
 | Logging and Auditing                      | All systems integrate with the auditing, logging and monitoring tools                                |
 
 ### Architecturally Significant Non-functional Requirement Realization
+| Business Requirement                     | Realization                                   |
+|------------------------------------------|--------------------------------------------------------|
+|Performance                               | The systems are built for high performance. The architecture reduces latency by leveraging caching, providing realtime APIs where required, providing CDN for fast access for users. The services are horizontally scalable and have high throughput.|
+|Scalability                               | All services as scalable by design |
+|Reliability   | Services have been deployed in multiple AZs for fault tolerance. DR pilot light site is available for Disaster recovery |
+|Availability | All services are fault tolerant and automatically can switch over to reduce downtime |
+| Security | Security is build by design. Separation of account for different business units adds an additional level of security. |
+|Maintainability | All domains taking care of their own data and self serving the requests reduces the overhead of a central team maintaining and sharing data. Managed services also reduce operational overheads |
+|Flexibility and Extensibility | The architecture can be extended to add more systems and data products without creating a bottleneck. |
+|Usability | Front end cn be served faster by using CDN |
+|Compliance | Compliance can be handled easily as the data owners give the other system access to the data. Also governance an sensitive data identification can be done by Macie |
+|Performance Efficiency, Cost| Most of the services used are managed services and can be scaled as required to ensure optimised resource usage and costs. |
+|Interoperability | Data is produced in multiple formats for different systems to use |
+|Monitoring and Logging | All the systems produce data to cloudwatch for logging and X-Ray for debugging |
+|Data Management | Appropriate data storage can be used for the requirements |
 
 
