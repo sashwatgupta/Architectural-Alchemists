@@ -14,11 +14,9 @@ Problem Background
 
 Solution Background
 - [Architecture Principles](/principles/architectural-principles.md)
-- Conceptual System Design
-- Security
-- Deployment
-- Roadmap
-- ADRs
+- [Reference Architecture](/intent/reference-architecture.md)
+- [Solution Intent](/intent/Readme.md)
+- [ADRs](/ADR/Readme.md)
 
 Views & Perspectives
 - Functional View
