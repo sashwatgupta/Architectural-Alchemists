@@ -1,22 +1,21 @@
-<!-- TOC -->
+<!-- TOC depthfrom:1 depthto:2 -->
 
 - [Reference architecture for a operational system](#reference-architecture-for-a-operational-system)
     - [Key Components](#key-components)
-        - [Route 53](#route-53)
-        - [CloudFront](#cloudfront)
-        - [Amazon Cognito](#amazon-cognito)
-        - [Amazon S3](#amazon-s3)
-        - [API Gateway](#api-gateway)
-        - [Load Balancer](#load-balancer)
-        - [AWS Fargate](#aws-fargate)
-        - [Amazon Aurora](#amazon-aurora)
-        - [ElastiCache](#elasticache)
-        - [DynamoDB](#dynamodb)
-        - [Kinesis](#kinesis)
+    - [Security Considerations](#security-considerations)
+    - [Monitoring and Logging](#monitoring-and-logging)
 - [Reference architecture for a data product](#reference-architecture-for-a-data-product)
+    - [Key Components](#key-components)
+    - [Security Considerations](#security-considerations)
+    - [Monitoring and Logging](#monitoring-and-logging)
 - [Deployment architecture](#deployment-architecture)
 
 <!-- /TOC -->
+
+
+
+
+
 
 # Reference architecture for a operational system
 The reference architecture for microservices is provided below. Operational systems can follow the below guidance.
@@ -94,6 +93,8 @@ The below is a reference architecture for a data product. This new to build a da
 
 **Reference implementation**
 ![Reference Implementation](/resources/domain-architecture-ref-implementation.jpg)
+
+## Key Components
 1. Data flows into AWS through batch processing,
 real-time data, Secure File Transfer Protocol, event streams.
 2. Data sources are managed by the Business Domain. Producers use organization-level blueprints to provide core services such as
@@ -121,8 +122,5 @@ store.
 3. **Logging Services:** Utilize CloudWatch Logs and centralized logging solutions to aggregate and analyze logs from microservices and Lambda functions.
 
 
-# Deployment architecture
-- All the services are deployed on three availability zones in the same region. 
-- [Pilot light](/ADR/dr-strategy.md) for DR will be used across multiple regions
-- Separate accounts will be used for different business units
+
 
