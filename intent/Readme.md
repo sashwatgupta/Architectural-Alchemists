@@ -101,6 +101,12 @@ A high level simplified diagram of the customer data platform.
 9. **Case Management:** 
 [Case management](/intent/case-management.md) creates cases automatically based on system identified issues, through agents, different entry points in web and mobile applications and manually by the users in the system.
 
+# Deployment architecture
+- All the services are deployed on three availability zones in the same region. 
+- [Pilot light](/ADR/dr-strategy.md) for DR will be used across multiple regions
+- Separate accounts will be used for different business units
+- Centralized accounts for security, logging and monitoring - - Separation of private and public subnets for security
+
 ### Architecturally Significant Requirement Realization
 | Business Requirement                     | Realization                                   |
 |------------------------------------------|--------------------------------------------------------|

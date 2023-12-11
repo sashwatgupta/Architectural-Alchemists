@@ -69,6 +69,23 @@ Optionally Fargate can be replaced by Lambda if required.
 
 - **Intent:** Kinesis will be used for real-time data streaming and analytics, allowing the system to process and analyze data in near real-time.
 
+## Security Considerations
+
+1. **IAM Roles and Policies:** Define IAM roles with the principle of least privilege for microservices, Step Functions, and Lambda functions.
+
+2. **Encryption:** Enable encryption at rest and in transit for sensitive data, such as compensation details and documents.
+
+3. **Access Controls:** Implement proper access controls on S3 buckets, DynamoDB tables, and other resources to restrict unauthorized access.
+
+## Monitoring and Logging
+
+1. **CloudWatch Metrics and Alarms:** Monitor and set up alarms for key metrics such as Step Functions execution times, Fargate task failures, and Lambda invocations.
+
+2. **CloudTrail:** Enable AWS CloudTrail for auditing and logging AWS API calls for compliance and security purposes.
+
+3. **Logging Services:** Utilize CloudWatch Logs and centralized logging solutions to aggregate and analyze logs from microservices and Lambda functions.
+
+
 # Reference architecture for a data product
 The below is a reference architecture for a data product. This new to build a data platform that serves both operational and analytical needs by using domain owned design, maintained data properties, open data standards, purpose-built databases, and extensible serverless architecture. This data delivery platform architecture helps relieve and eventually replace the on-premises data platform load, leading to cost savings and an agile environment.
 
@@ -86,6 +103,23 @@ Accelerator (DAX) to provide consistent single digit-millisecond latency perform
 4. Use purpose-built databases such as Amazon DynamoDB and serverless architecture to deliver microservices and events to the operational data
 store.
 5. Build all reportable data sets in Amazon S3 and this can be shared using Lakeformation.
+
+## Security Considerations
+
+1. **IAM Roles and Policies:** Define IAM roles with the principle of least privilege for microservices, Step Functions, and Lambda functions.
+
+2. **Encryption:** Enable encryption at rest and in transit for sensitive data, such as compensation details and documents.
+
+3. **Access Controls:** Implement proper access controls on S3 buckets, DynamoDB tables, and other resources to restrict unauthorized access.
+
+## Monitoring and Logging
+
+1. **CloudWatch Metrics and Alarms:** Monitor and set up alarms for key metrics such as Step Functions execution times, Fargate task failures, and Lambda invocations.
+
+2. **CloudTrail:** Enable AWS CloudTrail for auditing and logging AWS API calls for compliance and security purposes.
+
+3. **Logging Services:** Utilize CloudWatch Logs and centralized logging solutions to aggregate and analyze logs from microservices and Lambda functions.
+
 
 # Deployment architecture
 - All the services are deployed on three availability zones in the same region. 
